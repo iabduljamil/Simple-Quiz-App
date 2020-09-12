@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:prac_app/questions.dart';
 import 'questionsList.dart';
 
+
+
 void main() {
-  runApp(PersonalityMatch());
+  runApp(QuizApp());
 }
 
-class PersonalityMatch extends StatelessWidget {
+class QuizApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
